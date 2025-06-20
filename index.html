@@ -1,59 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AIORA Token</title>
   <style>
     body {
-      background-color: #0e0e1a;
+      margin: 0;
+      padding: 0;
+      background-color: #0d0d1f;
       color: #00ffff;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      text-align: center;
-      padding: 50px 20px;
-      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 30px 20px;
     }
+
     h1 {
-      font-size: 3em;
+      font-size: 2.5em;
       margin-bottom: 20px;
     }
+
     img {
-      width: 200px;
+      width: 220px;
       border-radius: 12px;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 20px #00ffff55;
     }
-    .desc {
+
+    .desc, .mint {
       font-size: 1.2em;
-      margin-bottom: 10px;
+      text-align: center;
+      max-width: 90%;
     }
+
     .mint {
-      font-size: 0.9em;
-      color: #cccccc;
-      word-break: break-all;
+      margin-top: 20px;
+      font-size: 0.95em;
+      color: #ccc;
+      word-wrap: break-word;
     }
+
     .button {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 12px 24px;
+      margin-top: 35px;
       background-color: #00ffff;
       color: #000;
       font-weight: bold;
+      padding: 12px 24px;
       border: none;
       border-radius: 8px;
+      cursor: pointer;
       text-decoration: none;
-      transition: 0.3s;
+      transition: background 0.3s;
     }
+
     .button:hover {
-      background-color: #00cfcf;
+      background-color: #00cccc;
     }
   </style>
 </head>
 <body>
   <h1>Welcome to AIORA Token</h1>
-  <img src="aiora-logo.jpg" alt="AIORA Logo" />
-  <div class="desc">$AIOR</div>
-  <div class="desc">AI-powered meme token built on Solana</div>
-  <div class="mint">Mint Address: DzLkpcFWtZnex4WmmvUnHktu3WQ8mQzut1cm3YqJ9t</div>
+  <img src="aiora-logo.jpg" alt="AIORA Logo">
+  <div class="desc">$AIOR — AI-powered meme token built on Solana</div>
+  <div class="mint">Mint Address:<br>DzLkpcFWtZnex4WmmvUnHktu3WQ8mQzut1cm3YqJ9t</div>
   <a href="https://jup.ag/swap/SOL-AIOR" class="button" target="_blank">Buy $AIOR</a>
 </body>
 </html>
